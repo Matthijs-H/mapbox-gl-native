@@ -831,6 +831,7 @@ public final class LocationComponent {
    * Internal use.
    */
   public void onStartLoadingMap() {
+    isStyleInitialized = false;
     onLocationLayerStop();
   }
 
